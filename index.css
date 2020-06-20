@@ -1,49 +1,56 @@
-body{
-    background-image: url("https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+    body{
+        background-image: url("https://images.unsplash.com/photo-1584505489290-96eb4e406d08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      
+        
+    }
 
-}
+    .header{
+        text-align: center;
+        /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+        color: white;
+    }
 
-.header{
-    text-align: center;
-    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
-    color: white;
-}
-
-.about{
-    color: lightgray;
   
+    .about{
+        color: white;
+        text-align: center;
+        padding-top: 400px;
+     
+    }
 
-}
-
-.about-para{
-    font-size: large;
-    background-color: lightgray;
-    margin: 100px;
-    padding: 2px;
-    border: 2px solid white;
-    border-radius: 10px;
-    color: black;
-    display:flex;
-    border-image: 1px solid;
-}
-
-.headshot{
-   
-    object-fit: cover;
-    border-radius: 0.5em;
-    box-shadow: -2px 2px 2px grey;
-}
-
-.creature{
-    font-size: large;
-    color: lightgray;
-}
-.contact-form{
-    display: flex;
-    justify-content: center;
     
-    color: lightgray;
-    margin: auto;
-    height: 200px;
-    width: 100px;
-}
+    .about-para{
+        font-size: large;
+        background-color: lightgray;
+        margin: 100px;
+        padding: 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        color: black;
+        display: flex;
+        border-image: 1px solid;
+    }
+
+    .headshot{
+    
+        object-fit: cover;
+        border-radius: 0.5em;
+        box-shadow: -2px 2px 2px grey;
+    }
+
+    .creature{
+        font-size: large;
+        color: lightgray;
+    }
+    .contact-form{
+        display: flex;
+        justify-content: center;
+        
+        color: lightgray;
+        margin: auto;
+        height: 200px;
+        width: 100px;
+    }
