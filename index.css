@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://lh3.googleusercontent.com/proxy/ox-aBNWrQ6KhFBQ1XwUISKv2icNKMgwjN9UNu6a773BhwPPks9eyqWKMbnTJhzlwtI_xFaz5hnl2PI0piSd3-Xv7Hs70S-7pl8DyubNblLZ0");
+}
+
+.header{
+    text-align: center;
+    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+    color: white;
+}
+
+.about{
+    color: lightgray;
+}
+
+.about-para{
+    font-size: large;
+    background-color: lightgray;
+    margin: auto;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    display:flex;
+    border-image: 1px solid;
+}
+
+.headshot{
+   
+    object-fit: cover;
+    border-radius: 0.5em;
+    box-shadow: -2px 2px 2px grey;
+}
+
+.creature{
+    font-size: large;
+    color: lightgray;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    
+    color: lightgray;
+    margin: auto;
+    height: 200px;
+    width: 100px;
+}
