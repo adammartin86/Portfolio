@@ -1,6 +1,68 @@
+body{
+   background-image: url 'https://images.unsplash.com/photo-1584505489290-96eb4e406d08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80';
+   
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkdIn{
+    color: white;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color: blue;
+    box-shadow: 20px;
+}
+.gitHub{
+    color: white;
+    border: 2px solid blue;
+    border-radius: 3px;
+    background-color:blue;
+}
+
+.about{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin: 200px;
+}
+
+.about-container{
+  display: flex;
+}
+
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.resume-link{
+    color: white;
+    text-align: center;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 16px;
+    
+}
+
 .projects-container{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 #contact-form {
